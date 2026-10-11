@@ -15,6 +15,7 @@ const COLORS = [
   '#ffb74d', // L - orange
   '#90a4ae', // N - steel gray (tuerca)
   '#f06292', // P - pink (punto)
+  '#4db6ac', // U - teal
 ];
 
 const PIECES = [
@@ -28,6 +29,7 @@ const PIECES = [
   [[0,0,7],[7,7,7],[0,0,0]],                  // L
   [[8,8,8],[8,0,8],[8,8,8]],                  // N (tuerca)
   [[9]],                                       // P (punto 1x1)
+  [[10,0,10],[10,0,10],[10,10,10]],            // U
 ];
 
 const LINE_SCORES = [0, 100, 300, 500, 800];
